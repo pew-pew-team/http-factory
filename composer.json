@@ -13,6 +13,11 @@
         }
     },
     "require-dev": {
+        "symfony/yaml": "^5.4|^6.0|^7.0",
+        "rybakit/msgpack": "^0.9|^1.0",
+        "symfony/config": "^5.4|^6.0|^7.0",
+        "symfony/dependency-injection": "^5.4|^6.0|^7.0",
+        "symfony/http-kernel": "^5.4|^6.0|^7.0",
         "friendsofphp/php-cs-fixer": "^3.49",
         "phpunit/phpunit": "^10.5",
         "symfony/var-dumper": "^5.4|^6.0|^7.0",
@@ -27,7 +32,9 @@
         "ext-json": "Adds JSON decoder and encoder",
         "symfony/yaml": "Adds YAML decoder and encoder",
         "rybakit/msgpack": "Adds MSGPACK decoder and encoder",
-        "symfony/http-kernel": "Adds Symfony Bundle support (PewPew\\HttpFactory\\HttpFactoryBundle)"
+        "symfony/http-kernel": "For Symfony Bundle support",
+        "symfony/config": "For Symfony Bundle support",
+        "symfony/dependency-injection": "For Symfony Bundle support"
     },
     "extra": {
         "branch-alias": {

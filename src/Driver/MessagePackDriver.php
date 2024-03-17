@@ -53,6 +53,7 @@ final readonly class MessagePackDriver extends Driver
         }
 
         if (\is_object($result) || \is_array($result)) {
+            /** @var array|object */
             return $result;
         }
 

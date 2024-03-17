@@ -66,6 +66,7 @@ final readonly class YamlDriver extends Driver
 
     protected function toString(mixed $data): string
     {
+        /** @var string */
         return Yaml::dump($data, 4, 2);
     }
 }
